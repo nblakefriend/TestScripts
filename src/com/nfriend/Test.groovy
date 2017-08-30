@@ -2,7 +2,7 @@ package com.nfriend
 
 class Test {
 
-    private final someString
+    private final String someString
 
     Test(String someString){
         this.someString = someString
