@@ -10,6 +10,7 @@ class Test {
         this.someString = someString
     }
 
+    @NonCPS
     String getBlahBlahWomp() {
         return this.someString
     }
