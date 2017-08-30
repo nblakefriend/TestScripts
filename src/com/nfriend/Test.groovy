@@ -2,7 +2,7 @@
 
 package com.nfriend
 
-class Test {
+class Test implements Serializable {
 
     private final String someString
 
@@ -10,8 +10,7 @@ class Test {
         this.someString = someString
     }
 
-    @NonCPS
-    String getBlahBlahWomp() {
+    def getBlahBlahWomp() {
         return this.someString
     }
 
