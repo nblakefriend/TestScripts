@@ -2,14 +2,14 @@
 
 import com.nfriend.Test;
 
+testClass = new Test("blah blah blah")
+
 def test() {
     echo "Testing"
 }
 
 def echoTest() {
-    def testClass = new Test("blah blah blah")
-//    return testClass.getBlahBlahWomp()
-    echo testClass.getSomeString()
+    echo testClass.getBlahBlahWomp()
 }
 
 
