@@ -8,7 +8,11 @@ def test() {
 
 def echoTest() {
     Test testClass = new Test("I Got This From The Test Class!")
-    echo testClass.getSomeString()
+    return testClass.getSomeString()
+}
+
+def envTest() {
+    echo env.BRANCH_NAME
 }
 
 
