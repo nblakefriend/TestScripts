@@ -10,7 +10,7 @@ class Test {
         this.someString = someString
     }
 
-    String letsGetSomeString() {
+    String getBlahBlahWomp() {
         return this.someString
     }
 
