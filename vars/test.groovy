@@ -11,8 +11,6 @@ def test() {
 def echoTest() {
     testClass = new Test("blah blah blah")
     echo testClass.getBlahBlahWomp()
-    echo "Getting getter method"
-    echo testClass.getSomeString()
 }
 
 
