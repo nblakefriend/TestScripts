@@ -7,7 +7,7 @@ def test() {
 }
 
 def echoTest() {
-    def testClass = new Test()
+    def testClass = new Test("This is from the class!")
     return testClass.letsGetSomeString()
 }
 
