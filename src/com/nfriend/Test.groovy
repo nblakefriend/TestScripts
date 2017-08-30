@@ -10,7 +10,11 @@ class Test implements Serializable {
         this.someString = someString
     }
 
-    def getBlahBlahWomp() {
+    def getBlahBlahWomp(){
+        return this.someString
+    }
+
+    def getSomeString(){
         return this.someString
     }
 
