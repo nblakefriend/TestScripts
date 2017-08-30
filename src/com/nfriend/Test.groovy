@@ -14,8 +14,4 @@ class Test implements Serializable {
         return this.someString
     }
 
-    def getSomeString(){
-        return this.someString
-    }
-
 }
