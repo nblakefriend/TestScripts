@@ -9,5 +9,5 @@ def test() {
 }
 
 def echoTest() {
-    echo testClass.echoSomeString()
+    echo testClass.getSomeString()
 }
