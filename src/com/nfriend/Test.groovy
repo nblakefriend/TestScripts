@@ -10,9 +10,9 @@ class Test {
         this.someString = someString
     }
 
-    String getSomeString(){
-        return this.someString
-    }
+//    String getSomeString(){
+//        return this.someString
+//    }
 //    String getBlahBlahWomp() {
 //        return this.someString
 //    }
